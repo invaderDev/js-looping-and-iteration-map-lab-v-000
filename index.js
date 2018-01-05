@@ -8,5 +8,7 @@ function nameToAttributes(drivers) {
     const nameArray = driver.split(" ");
 
     const driverObject = Object.assign({}, {nameArray[0] : nameArray[1]});
+
+    return driverObject;
   })
 }
